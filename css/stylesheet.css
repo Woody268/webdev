@@ -1,9 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-@font-face {
-	font-family: "Montserrat-Medium";
-	src: url("./fonts/Montserrat-Medium.ttf");
-}
 body {
 	padding: 25px;
 	background-color: #0F4C5C !important;
