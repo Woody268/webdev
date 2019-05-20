@@ -56,13 +56,13 @@ h1 {
 	border-width: 0px 0px 3px 0px;
 	border-style: solid;
 	border-color: #FF8811;
-	color: #26C97A;
+	color: #167666;
 	width: 250px;
 	background-color: hsla(0,0%,100%,0.00);
 	font-family: 'Montserrat', sans-serif;
 }
 ::placeholder {
- color:#26C97A;
+ color:#167666;
 }
 .formlabels {
 	margin-bottom: 0;
