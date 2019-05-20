@@ -21,7 +21,7 @@ body {
 	cursor: pointer;
 	border-radius: 50px;
 	width: 250px;
-	font-family: Montserrat-Medium;
+	font-family: 'Montserrat', sans-serif;
 }
 .greenbutton {
 	background-color: #26C97A;
@@ -36,14 +36,13 @@ body {
 	cursor: pointer;
 	border-radius: 50px;
 	width: 250px;
-	font: montserrat;
+	font-family: 'Montserrat', sans-serif;
 }
 .orangebutton:hover, .greenbutton:hover {
 	-webkit-box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
 	-moz-box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
 	box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
 }
-
 .form {
 	border-width: 0px 0px 3px 0px;
 	border-style: solid;
@@ -51,7 +50,7 @@ body {
 	color: #26C97A;
 	width: 250px;
 	background-color: hsla(0,0%,100%,0.00);
-	font: "Montserrat-Medium";
+	font-family: 'Montserrat', sans-serif;
 }
 .borderform::placeholder {
  color:#26C97A;
@@ -59,7 +58,7 @@ body {
 .formlabels {
 	margin-bottom: 0;
 	color: #FFFFFF;
-	font: "Montserrat-Medium";
+	font-family: 'Montserrat', sans-serif;
 }
 .logo {
 	height: 150px;
