@@ -5,7 +5,8 @@ body {
 	background-color: #0F4C5C !important;
 }
 h1 {
-	color:#000000;
+	color: #FFFFFF;
+	text-decoration: underline;
 }
 /* Buttons */
 .orangebutton {
@@ -38,12 +39,12 @@ h1 {
 .logo {
 	height: 150px;
 	width: auto;
-	margin:100px;
+	margin: 100px;
 }
 .smalllogo {
 	height: 50px;
 	width: auto;
-	margin:100px;
+	margin: 100px;
 }
 /* Input fields */
 .orangebutton:hover, .greenbutton:hover {
@@ -60,7 +61,7 @@ h1 {
 	background-color: hsla(0,0%,100%,0.00);
 	font-family: 'Montserrat', sans-serif;
 }
-.borderform::placeholder {
+::placeholder {
  color:#26C97A;
 }
 .formlabels {
