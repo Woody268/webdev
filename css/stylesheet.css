@@ -6,13 +6,12 @@ body {
 }
 h1 {
 	color: #FFFFFF;
-	border-top:0px;
-	border-left:0px;
-	border-right:0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
 	border-bottem: 2px;
 	border-color: #FFFFFF;
 	border-style: solid;
-
 }
 /* Buttons */
 .orangebutton {
@@ -52,6 +51,29 @@ h1 {
 	width: auto;
 	margin: 100px;
 }
+/* Menu */
+.menu {
+	font-size: 40px;
+	width: 400px;
+}
+.menu a {
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	font-family: 'Martel', serif;
+	color: white;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottem: 2px;
+	border-color: #00C67B;
+	border-style: solid;
+}
+.menu a:hover {
+	background-color: #00C67B;
+	text-decoration: none;
+	color: white;
+}
 /* Input fields */
 .orangebutton:hover, .greenbutton:hover {
 	-webkit-box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
@@ -75,10 +97,17 @@ h1 {
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
 }
-
 /* Photo's */
 .photo {
 	height: 500px;
 	width: auto;
 	margin: 100px;
+}
+.whiteicon a {
+		color: white;
+		font-size:80px;
+
+}
+.whiteicon a:hover {
+		color: #00C67B;
 }
