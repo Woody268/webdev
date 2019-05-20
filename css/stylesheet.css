@@ -4,6 +4,9 @@ body {
 	padding: 25px;
 	background-color: #0F4C5C !important;
 }
+h1 {
+	color:#000000;
+}
 /* Buttons */
 .orangebutton {
 	background-color: #FF8811;
