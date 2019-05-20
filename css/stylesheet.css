@@ -6,7 +6,13 @@ body {
 }
 h1 {
 	color: #FFFFFF;
-	text-decoration: underline;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottem: 2px;
+	border-color: #FFFFFF;
+	border-style: solid;
+
 }
 /* Buttons */
 .orangebutton {
@@ -68,4 +74,11 @@ h1 {
 	margin-bottom: 0;
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
+}
+
+/* Photo's */
+.photo {
+	height: 500px;
+	width: auto;
+	margin: 100px;
 }
