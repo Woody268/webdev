@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "Montserrat-Medium";
+	src: url("./fonts/Montserrat-Medium.ttf");
+}
+body {
+	padding: 25px;
+	background-color: #0F4C5C !important;
+}
+.orangebutton {
+	background-color: #FF8811;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 250px;
+	font-family: Montserrat-Medium;
+}
+.greenbutton {
+	background-color: #26C97A;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 250px;
+	font: montserrat;
+}
+.orangebutton:hover, .greenbutton:hover {
+	-webkit-box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
+	-moz-box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
+	box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
+}
+
+.form {
+	border-width: 0px 0px 3px 0px;
+	border-style: solid;
+	border-color: #FF8811;
+	color: #26C97A;
+	width: 250px;
+	background-color: hsla(0,0%,100%,0.00);
+	font: "Montserrat-Medium";
+}
+.borderform::placeholder {
+ color:#26C97A;
+}
+.formlabels {
+	margin-bottom: 0;
+	color: #FFFFFF;
+	font: "Montserrat-Medium";
+}
+.logo {
+	height: 150px;
+	width: auto;
+}
+.smalllogo {
+	height: 50px;
+	width: auto;
+}
