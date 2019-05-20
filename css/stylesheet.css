@@ -4,6 +4,7 @@ body {
 	padding: 25px;
 	background-color: #0F4C5C !important;
 }
+/* Buttons */
 .orangebutton {
 	background-color: #FF8811;
 	border: none;
@@ -19,7 +20,7 @@ body {
 	width: 250px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500
-	}
+}
 .greenbutton {
 	background-color: #26C97A;
 	border: none;
@@ -34,7 +35,20 @@ body {
 	border-radius: 50px;
 	width: 250px;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 500
 }
+/* Logo */
+.logo {
+	height: 150px;
+	width: auto;
+	margin:100px;
+}
+.smalllogo {
+	height: 50px;
+	width: auto;
+	margin:100px;
+}
+/* Input fields */
 .orangebutton:hover, .greenbutton:hover {
 	-webkit-box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
 	-moz-box-shadow: 0px 20px 28px -12px rgba(0,0,0,0.38);
@@ -56,12 +70,4 @@ body {
 	margin-bottom: 0;
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
-}
-.logo {
-	height: 150px;
-	width: auto;
-}
-.smalllogo {
-	height: 50px;
-	width: auto;
 }
