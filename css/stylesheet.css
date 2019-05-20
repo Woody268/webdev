@@ -104,10 +104,21 @@ h1 {
 	margin: 100px;
 }
 .whiteicon a {
-		color: white;
-		font-size:80px;
-
+	color: white;
+	font-size: 80px;
 }
 .whiteicon a:hover {
-		color: #00C67B;
+	color: #00C67B;
+}
+.Calandar {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+.Calandarheader {
+	text-decoration: underline;
+	text-decoration-color: #FF8811;
+}
+.Calandaractive {
+	background-color: #00C67B;
 }
