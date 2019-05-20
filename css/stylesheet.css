@@ -110,18 +110,30 @@ h1 {
 .whiteicon a:hover {
 	color: #00C67B;
 }
-.Calandar {
+/* calendar */ 
+.calendar {
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 }
-.Calandarheader {
+.calendarheader a, .calendarday a {
 	text-decoration: underline;
 	text-decoration-color: #FF8811;
+	color: #FFFFFF;
 }
-.Calandaractive {
+.calendaractived {
 	background-color: #00C67B;
 	margin-right: 50px;
-	padding-left: 20px;
 	border-radius: 50px;
+}
+.calendaractivem {
+	background-color: #00C67B;
+	margin-right: 50px;
+	border-radius: 50px;
+	padding-left: 20px;
+}
+.calendarheader a:hover, .calendarday a:hover {
+	background-color: #00C67B;
+	text-decoration: none;
+	color: white;
 }
