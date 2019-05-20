@@ -18,7 +18,8 @@ body {
 	border-radius: 50px;
 	width: 250px;
 	font-family: 'Montserrat', sans-serif;
-}
+	font-weight: 500
+	}
 .greenbutton {
 	background-color: #26C97A;
 	border: none;
