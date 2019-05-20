@@ -116,9 +116,12 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 }
-.calendarheader a, .calendarday a {
+.calendarheader a {
 	text-decoration: underline;
 	text-decoration-color: #FF8811;
+	color: #FFFFFF;
+}
+.calendarday a {
 	color: #FFFFFF;
 }
 .calendaractived {
