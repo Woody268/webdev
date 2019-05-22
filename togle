@@ -1,0 +1,4 @@
+<div class="check">
+	<input id="check" type="checkbox">
+	<label for="check"></label>
+</div>
