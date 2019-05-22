@@ -14,6 +14,9 @@ h1 {
 	border-bottom: 2px;
 	border-color: #FFFFFF;
 	border-style: solid;
+	font-family: 'Martel', serif;
+	font-weight: 400;
+	font-size: 24px;
 }
 
 /* Buttons */
@@ -27,8 +30,6 @@ h1 {
 	cursor: pointer;
 	border-radius: 50px;
 	width: 250px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
 }
 
 .orangebutton {
@@ -58,6 +59,8 @@ h1 {
 .menu {
 	font-size: 40px;
 	width: 400px;
+	font-family: 'Martel', serif;
+	font-weight: 400;
 }
 
 .menu a {
@@ -97,7 +100,10 @@ h1 {
 	background-color: hsla(0, 0%, 100%, 0.00);
 	font-family: 'Montserrat', sans-serif;
 }
-
+.checkboxl{
+	height: 20px;
+	width: 20px;
+}
 ::placeholder {
 	color: #167666;
 }
@@ -151,11 +157,11 @@ h1 {
 }
 
 input:checked+.slider {
-	background-color: #2196F3;
+	background-color: #FF8811;
 }
 
 input:focus+.slider {
-	box-shadow: 0 0 1px #2196F3;
+	box-shadow: 0 0 1px #FF8811;
 }
 
 input:checked+.slider:before {
@@ -264,4 +270,20 @@ input:checked+.slider:before {
 	float: left;
 	margin-top: 20px;
 	margin-right: 50px;
+}
+/* Fonts */
+.Montserrat-s-r {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+}
+.Montserrat-s {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+}
+.Montserrat-m {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
 }
